@@ -1,0 +1,2093 @@
+2025-03-11 11:49:18,778 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-11 11:49:18,778 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-11 11:49:18,781 INFO RPC interface 'supervisor' initialized
+2025-03-11 11:49:18,781 INFO supervisord started with pid 88
+2025-03-11 11:49:19,784 INFO spawned: 'syslogd' with pid 89
+2025-03-11 11:49:19,787 INFO spawned: 'apached' with pid 90
+2025-03-11 11:49:19,790 INFO spawned: 'php-fpmd' with pid 91
+2025-03-11 11:49:19,793 INFO spawned: 'crond' with pid 92
+2025-03-11 11:49:19,796 INFO spawned: 'postfixd' with pid 94
+2025-03-11 11:49:19,800 INFO spawned: 'sshd' with pid 97
+2025-03-11 11:49:19,802 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:19,802 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:19,802 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:19,802 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:19,802 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:19,842 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:19,912 INFO spawned: 'apached' with pid 130
+2025-03-11 11:49:19,916 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:19,938 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:20,939 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 11:49:20,941 INFO spawned: 'apached' with pid 134
+2025-03-11 11:49:20,951 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:20,984 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:21,988 INFO spawned: 'apached' with pid 229
+2025-03-11 11:49:21,997 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:22,032 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:23,035 INFO spawned: 'apached' with pid 231
+2025-03-11 11:49:23,045 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:23,080 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:24,082 INFO spawned: 'apached' with pid 233
+2025-03-11 11:49:24,092 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:24,127 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:25,131 INFO spawned: 'apached' with pid 238
+2025-03-11 11:49:25,140 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:25,178 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:26,180 INFO spawned: 'apached' with pid 240
+2025-03-11 11:49:26,189 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:26,224 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:27,226 INFO spawned: 'apached' with pid 242
+2025-03-11 11:49:27,236 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:27,272 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:28,276 INFO spawned: 'apached' with pid 244
+2025-03-11 11:49:28,285 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:28,319 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:29,323 INFO spawned: 'apached' with pid 246
+2025-03-11 11:49:29,333 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:29,368 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:30,372 INFO spawned: 'apached' with pid 251
+2025-03-11 11:49:30,381 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:30,416 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:31,419 INFO spawned: 'apached' with pid 260
+2025-03-11 11:49:31,425 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:31,450 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:32,453 INFO spawned: 'apached' with pid 262
+2025-03-11 11:49:32,463 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:32,498 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:33,501 INFO spawned: 'apached' with pid 264
+2025-03-11 11:49:33,511 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:33,546 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:34,549 INFO spawned: 'apached' with pid 266
+2025-03-11 11:49:34,562 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:34,598 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:35,601 INFO spawned: 'apached' with pid 272
+2025-03-11 11:49:35,611 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:35,646 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:36,649 INFO spawned: 'apached' with pid 274
+2025-03-11 11:49:36,660 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:36,696 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:37,700 INFO spawned: 'apached' with pid 276
+2025-03-11 11:49:37,710 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:37,746 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:38,749 INFO spawned: 'apached' with pid 278
+2025-03-11 11:49:38,759 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:38,794 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:39,797 INFO spawned: 'apached' with pid 283
+2025-03-11 11:49:39,807 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:39,842 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:40,846 INFO spawned: 'apached' with pid 285
+2025-03-11 11:49:40,856 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:40,891 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:41,894 INFO spawned: 'apached' with pid 287
+2025-03-11 11:49:41,901 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:41,930 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:42,933 INFO spawned: 'apached' with pid 289
+2025-03-11 11:49:42,942 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:42,977 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:43,980 INFO spawned: 'apached' with pid 291
+2025-03-11 11:49:43,990 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:44,025 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:45,029 INFO spawned: 'apached' with pid 296
+2025-03-11 11:49:45,038 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:45,073 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:46,076 INFO spawned: 'apached' with pid 298
+2025-03-11 11:49:46,084 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:46,117 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:47,121 INFO spawned: 'apached' with pid 300
+2025-03-11 11:49:47,139 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:47,176 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:48,179 INFO spawned: 'apached' with pid 302
+2025-03-11 11:49:48,188 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:48,224 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:49,227 INFO spawned: 'apached' with pid 304
+2025-03-11 11:49:49,236 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:49,265 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:50,267 INFO spawned: 'apached' with pid 309
+2025-03-11 11:49:50,276 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:50,310 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:51,312 INFO spawned: 'apached' with pid 311
+2025-03-11 11:49:51,321 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:51,357 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:52,359 INFO spawned: 'apached' with pid 313
+2025-03-11 11:49:52,369 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:52,403 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:53,407 INFO spawned: 'apached' with pid 315
+2025-03-11 11:49:53,416 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:53,452 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:54,455 INFO spawned: 'apached' with pid 317
+2025-03-11 11:49:54,465 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:54,501 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:55,504 INFO spawned: 'apached' with pid 322
+2025-03-11 11:49:55,513 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:55,549 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:56,553 INFO spawned: 'apached' with pid 324
+2025-03-11 11:49:56,562 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:56,603 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:57,604 INFO spawned: 'apached' with pid 326
+2025-03-11 11:49:57,609 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:57,631 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:58,635 INFO spawned: 'apached' with pid 328
+2025-03-11 11:49:58,646 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:58,677 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:49:59,680 INFO spawned: 'apached' with pid 330
+2025-03-11 11:49:59,686 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:49:59,709 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:00,711 INFO spawned: 'apached' with pid 335
+2025-03-11 11:50:00,721 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:00,755 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:01,758 INFO spawned: 'apached' with pid 337
+2025-03-11 11:50:01,767 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:01,802 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:02,804 INFO spawned: 'apached' with pid 339
+2025-03-11 11:50:02,813 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:02,848 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:03,851 INFO spawned: 'apached' with pid 341
+2025-03-11 11:50:03,857 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:03,889 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:04,891 INFO spawned: 'apached' with pid 346
+2025-03-11 11:50:04,901 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:04,937 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:05,939 INFO spawned: 'apached' with pid 348
+2025-03-11 11:50:05,949 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:05,985 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:06,987 INFO spawned: 'apached' with pid 350
+2025-03-11 11:50:06,997 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:07,032 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:08,035 INFO spawned: 'apached' with pid 352
+2025-03-11 11:50:08,044 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:08,082 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:09,084 INFO spawned: 'apached' with pid 354
+2025-03-11 11:50:09,094 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:09,128 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:10,130 INFO spawned: 'apached' with pid 359
+2025-03-11 11:50:10,139 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:10,174 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:11,177 INFO spawned: 'apached' with pid 361
+2025-03-11 11:50:11,186 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:11,221 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:12,224 INFO spawned: 'apached' with pid 363
+2025-03-11 11:50:12,233 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:12,268 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:13,271 INFO spawned: 'apached' with pid 365
+2025-03-11 11:50:13,280 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:13,317 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:14,319 INFO spawned: 'apached' with pid 367
+2025-03-11 11:50:14,330 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:14,366 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:15,369 INFO spawned: 'apached' with pid 372
+2025-03-11 11:50:15,378 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:15,414 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:16,418 INFO spawned: 'apached' with pid 374
+2025-03-11 11:50:16,427 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:16,463 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:17,466 INFO spawned: 'apached' with pid 376
+2025-03-11 11:50:17,476 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:17,511 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:18,514 INFO spawned: 'apached' with pid 378
+2025-03-11 11:50:18,524 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:18,559 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:19,562 INFO spawned: 'apached' with pid 380
+2025-03-11 11:50:19,572 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:19,607 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:20,610 INFO spawned: 'apached' with pid 385
+2025-03-11 11:50:20,621 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:20,656 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:21,658 INFO spawned: 'apached' with pid 387
+2025-03-11 11:50:21,664 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:21,686 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:22,689 INFO spawned: 'apached' with pid 389
+2025-03-11 11:50:22,695 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:22,723 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:23,725 INFO spawned: 'apached' with pid 391
+2025-03-11 11:50:23,735 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:23,771 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:24,774 INFO spawned: 'apached' with pid 393
+2025-03-11 11:50:24,783 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:24,819 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:25,823 INFO spawned: 'apached' with pid 398
+2025-03-11 11:50:25,832 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:25,867 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:26,870 INFO spawned: 'apached' with pid 400
+2025-03-11 11:50:26,878 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:26,910 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:27,913 INFO spawned: 'apached' with pid 402
+2025-03-11 11:50:27,922 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:27,958 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:28,960 INFO spawned: 'apached' with pid 404
+2025-03-11 11:50:28,969 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:29,004 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:30,007 INFO spawned: 'apached' with pid 409
+2025-03-11 11:50:30,016 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:30,051 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:31,054 INFO spawned: 'apached' with pid 411
+2025-03-11 11:50:31,064 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:31,099 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:32,102 INFO spawned: 'apached' with pid 413
+2025-03-11 11:50:32,106 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:32,128 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:33,131 INFO spawned: 'apached' with pid 415
+2025-03-11 11:50:33,141 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:33,176 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:34,179 INFO spawned: 'apached' with pid 417
+2025-03-11 11:50:34,186 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:34,218 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:35,220 INFO spawned: 'apached' with pid 422
+2025-03-11 11:50:35,230 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:35,266 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:36,267 INFO spawned: 'apached' with pid 424
+2025-03-11 11:50:36,272 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:36,296 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:37,299 INFO spawned: 'apached' with pid 426
+2025-03-11 11:50:37,309 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:37,344 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:38,348 INFO spawned: 'apached' with pid 428
+2025-03-11 11:50:38,358 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:38,393 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:39,397 INFO spawned: 'apached' with pid 430
+2025-03-11 11:50:39,407 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:39,442 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:40,445 INFO spawned: 'apached' with pid 435
+2025-03-11 11:50:40,455 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:40,489 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:41,492 INFO spawned: 'apached' with pid 437
+2025-03-11 11:50:41,501 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:41,535 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:42,539 INFO spawned: 'apached' with pid 439
+2025-03-11 11:50:42,547 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:42,581 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:43,584 INFO spawned: 'apached' with pid 441
+2025-03-11 11:50:43,594 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:43,630 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:44,634 INFO spawned: 'apached' with pid 443
+2025-03-11 11:50:44,643 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:44,679 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:45,681 INFO spawned: 'apached' with pid 448
+2025-03-11 11:50:45,691 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:45,727 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:46,729 INFO spawned: 'apached' with pid 450
+2025-03-11 11:50:46,739 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:46,779 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:47,782 INFO spawned: 'apached' with pid 452
+2025-03-11 11:50:47,792 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:47,827 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:48,831 INFO spawned: 'apached' with pid 454
+2025-03-11 11:50:48,840 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:48,875 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:49,878 INFO spawned: 'apached' with pid 459
+2025-03-11 11:50:49,887 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:49,921 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:50,924 INFO spawned: 'apached' with pid 461
+2025-03-11 11:50:50,933 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:50,968 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:51,971 INFO spawned: 'apached' with pid 463
+2025-03-11 11:50:51,981 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:52,016 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:53,019 INFO spawned: 'apached' with pid 465
+2025-03-11 11:50:53,028 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:53,063 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:54,065 INFO spawned: 'apached' with pid 467
+2025-03-11 11:50:54,073 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:54,099 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:55,102 INFO spawned: 'apached' with pid 472
+2025-03-11 11:50:55,112 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:55,148 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:56,150 INFO spawned: 'apached' with pid 474
+2025-03-11 11:50:56,160 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:56,196 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:57,199 INFO spawned: 'apached' with pid 476
+2025-03-11 11:50:57,209 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:57,247 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:58,249 INFO spawned: 'apached' with pid 478
+2025-03-11 11:50:58,258 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:58,292 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:50:59,296 INFO spawned: 'apached' with pid 480
+2025-03-11 11:50:59,305 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:50:59,340 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:00,343 INFO spawned: 'apached' with pid 485
+2025-03-11 11:51:00,353 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:00,388 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:01,391 INFO spawned: 'apached' with pid 487
+2025-03-11 11:51:01,400 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:01,434 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:02,438 INFO spawned: 'apached' with pid 489
+2025-03-11 11:51:02,447 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:02,481 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:03,484 INFO spawned: 'apached' with pid 491
+2025-03-11 11:51:03,494 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:03,528 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:04,531 INFO spawned: 'apached' with pid 493
+2025-03-11 11:51:04,540 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:04,575 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:05,577 INFO spawned: 'apached' with pid 498
+2025-03-11 11:51:05,586 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:05,620 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:06,624 INFO spawned: 'apached' with pid 500
+2025-03-11 11:51:06,634 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:06,669 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:07,671 INFO spawned: 'apached' with pid 502
+2025-03-11 11:51:07,681 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:07,717 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:08,718 INFO spawned: 'apached' with pid 504
+2025-03-11 11:51:08,723 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:08,745 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:09,749 INFO spawned: 'apached' with pid 506
+2025-03-11 11:51:09,758 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:09,793 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:10,796 INFO spawned: 'apached' with pid 511
+2025-03-11 11:51:10,805 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:10,840 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:11,843 INFO spawned: 'apached' with pid 513
+2025-03-11 11:51:11,852 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:11,888 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:12,892 INFO spawned: 'apached' with pid 515
+2025-03-11 11:51:12,901 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:12,937 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:13,940 INFO spawned: 'apached' with pid 517
+2025-03-11 11:51:13,950 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:13,986 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:14,989 INFO spawned: 'apached' with pid 522
+2025-03-11 11:51:14,998 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:15,035 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:16,037 INFO spawned: 'apached' with pid 524
+2025-03-11 11:51:16,047 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:16,083 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:17,086 INFO spawned: 'apached' with pid 526
+2025-03-11 11:51:17,092 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:17,127 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:18,130 INFO spawned: 'apached' with pid 528
+2025-03-11 11:51:18,136 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:18,159 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:19,162 INFO spawned: 'apached' with pid 530
+2025-03-11 11:51:19,172 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:19,209 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:20,212 INFO spawned: 'apached' with pid 535
+2025-03-11 11:51:20,222 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:20,258 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:21,261 INFO spawned: 'apached' with pid 537
+2025-03-11 11:51:21,272 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:21,314 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:22,318 INFO spawned: 'apached' with pid 539
+2025-03-11 11:51:22,327 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:22,363 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:23,365 INFO spawned: 'apached' with pid 541
+2025-03-11 11:51:23,370 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:23,394 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:24,397 INFO spawned: 'apached' with pid 543
+2025-03-11 11:51:24,406 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:24,441 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:25,445 INFO spawned: 'apached' with pid 548
+2025-03-11 11:51:25,454 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:25,489 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:26,492 INFO spawned: 'apached' with pid 550
+2025-03-11 11:51:26,502 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:26,537 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:27,541 INFO spawned: 'apached' with pid 552
+2025-03-11 11:51:27,551 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:27,587 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:28,589 INFO spawned: 'apached' with pid 554
+2025-03-11 11:51:28,598 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:28,633 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:29,636 INFO spawned: 'apached' with pid 556
+2025-03-11 11:51:29,646 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:29,681 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:30,685 INFO spawned: 'apached' with pid 561
+2025-03-11 11:51:30,694 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:30,729 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:31,732 INFO spawned: 'apached' with pid 563
+2025-03-11 11:51:31,742 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:31,777 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:32,779 INFO spawned: 'apached' with pid 565
+2025-03-11 11:51:32,789 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:32,829 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:33,832 INFO spawned: 'apached' with pid 567
+2025-03-11 11:51:33,838 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:33,863 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:34,866 INFO spawned: 'apached' with pid 572
+2025-03-11 11:51:34,876 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:34,916 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:35,919 INFO spawned: 'apached' with pid 574
+2025-03-11 11:51:35,928 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:35,963 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:36,965 INFO spawned: 'apached' with pid 576
+2025-03-11 11:51:36,976 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:37,014 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:38,016 INFO spawned: 'apached' with pid 578
+2025-03-11 11:51:38,024 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:38,060 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:39,063 INFO spawned: 'apached' with pid 580
+2025-03-11 11:51:39,072 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:39,108 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:40,110 INFO spawned: 'apached' with pid 585
+2025-03-11 11:51:40,119 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:40,153 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:41,156 INFO spawned: 'apached' with pid 587
+2025-03-11 11:51:41,165 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:41,195 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:42,198 INFO spawned: 'apached' with pid 589
+2025-03-11 11:51:42,208 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:42,242 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:43,245 INFO spawned: 'apached' with pid 591
+2025-03-11 11:51:43,255 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:43,289 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:44,292 INFO spawned: 'apached' with pid 593
+2025-03-11 11:51:44,302 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:44,337 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:45,340 INFO spawned: 'apached' with pid 598
+2025-03-11 11:51:45,350 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:45,386 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:46,388 INFO spawned: 'apached' with pid 600
+2025-03-11 11:51:46,398 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:46,433 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:47,437 INFO spawned: 'apached' with pid 602
+2025-03-11 11:51:47,446 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:47,481 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:48,484 INFO spawned: 'apached' with pid 604
+2025-03-11 11:51:48,493 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:48,528 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:49,531 INFO spawned: 'apached' with pid 606
+2025-03-11 11:51:49,541 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:49,576 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:50,579 INFO spawned: 'apached' with pid 611
+2025-03-11 11:51:50,588 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:50,624 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:51,627 INFO spawned: 'apached' with pid 613
+2025-03-11 11:51:51,636 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:51,671 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:52,674 INFO spawned: 'apached' with pid 615
+2025-03-11 11:51:52,684 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:52,719 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:53,722 INFO spawned: 'apached' with pid 617
+2025-03-11 11:51:53,732 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:53,767 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:54,770 INFO spawned: 'apached' with pid 619
+2025-03-11 11:51:54,779 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:54,814 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:55,817 INFO spawned: 'apached' with pid 624
+2025-03-11 11:51:55,825 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:55,859 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:56,863 INFO spawned: 'apached' with pid 626
+2025-03-11 11:51:56,872 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:56,907 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:57,910 INFO spawned: 'apached' with pid 628
+2025-03-11 11:51:57,920 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:57,955 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:58,959 INFO spawned: 'apached' with pid 630
+2025-03-11 11:51:58,967 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:51:58,997 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:51:59,999 INFO spawned: 'apached' with pid 635
+2025-03-11 11:52:00,009 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:00,045 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:01,048 INFO spawned: 'apached' with pid 637
+2025-03-11 11:52:01,059 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:01,095 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:02,098 INFO spawned: 'apached' with pid 639
+2025-03-11 11:52:02,108 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:02,145 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:03,148 INFO spawned: 'apached' with pid 641
+2025-03-11 11:52:03,157 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:03,192 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:04,195 INFO spawned: 'apached' with pid 643
+2025-03-11 11:52:04,205 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:04,240 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:05,243 INFO spawned: 'apached' with pid 648
+2025-03-11 11:52:05,253 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:05,289 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:06,292 INFO spawned: 'apached' with pid 650
+2025-03-11 11:52:06,301 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:06,336 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:07,340 INFO spawned: 'apached' with pid 652
+2025-03-11 11:52:07,349 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:07,382 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:08,385 INFO spawned: 'apached' with pid 654
+2025-03-11 11:52:08,395 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:08,428 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:09,432 INFO spawned: 'apached' with pid 656
+2025-03-11 11:52:09,442 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:09,477 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:10,480 INFO spawned: 'apached' with pid 661
+2025-03-11 11:52:10,490 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:10,525 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:11,529 INFO spawned: 'apached' with pid 663
+2025-03-11 11:52:11,538 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:11,574 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:12,577 INFO spawned: 'apached' with pid 665
+2025-03-11 11:52:12,586 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:12,619 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:13,622 INFO spawned: 'apached' with pid 667
+2025-03-11 11:52:13,631 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:13,667 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:14,669 INFO spawned: 'apached' with pid 669
+2025-03-11 11:52:14,678 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:14,712 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:15,714 INFO spawned: 'apached' with pid 674
+2025-03-11 11:52:15,723 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:15,759 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:16,762 INFO spawned: 'apached' with pid 676
+2025-03-11 11:52:16,771 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:16,800 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:17,802 INFO spawned: 'apached' with pid 678
+2025-03-11 11:52:17,811 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:17,848 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:18,850 INFO spawned: 'apached' with pid 680
+2025-03-11 11:52:18,860 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:18,896 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:19,900 INFO spawned: 'apached' with pid 682
+2025-03-11 11:52:19,909 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:19,947 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:20,950 INFO spawned: 'apached' with pid 687
+2025-03-11 11:52:20,959 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:20,995 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:21,998 INFO spawned: 'apached' with pid 689
+2025-03-11 11:52:22,008 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:22,044 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:23,046 INFO spawned: 'apached' with pid 691
+2025-03-11 11:52:23,056 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:23,092 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:24,095 INFO spawned: 'apached' with pid 693
+2025-03-11 11:52:24,104 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:24,137 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:25,140 INFO spawned: 'apached' with pid 698
+2025-03-11 11:52:25,149 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:25,183 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:26,186 INFO spawned: 'apached' with pid 700
+2025-03-11 11:52:26,196 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:26,232 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:27,236 INFO spawned: 'apached' with pid 702
+2025-03-11 11:52:27,245 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:27,281 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:28,284 INFO spawned: 'apached' with pid 704
+2025-03-11 11:52:28,294 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:28,328 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:29,332 INFO spawned: 'apached' with pid 706
+2025-03-11 11:52:29,342 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:29,377 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:30,381 INFO spawned: 'apached' with pid 711
+2025-03-11 11:52:30,390 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:30,425 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:31,428 INFO spawned: 'apached' with pid 713
+2025-03-11 11:52:31,436 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:31,469 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:32,473 INFO spawned: 'apached' with pid 715
+2025-03-11 11:52:32,483 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:32,519 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:33,523 INFO spawned: 'apached' with pid 717
+2025-03-11 11:52:33,532 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:33,568 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:34,570 INFO spawned: 'apached' with pid 719
+2025-03-11 11:52:34,574 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:34,597 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:35,599 INFO spawned: 'apached' with pid 724
+2025-03-11 11:52:35,608 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:35,644 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:36,646 INFO spawned: 'apached' with pid 726
+2025-03-11 11:52:36,656 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:36,691 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:37,694 INFO spawned: 'apached' with pid 728
+2025-03-11 11:52:37,704 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:37,740 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:38,744 INFO spawned: 'apached' with pid 730
+2025-03-11 11:52:38,754 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:38,789 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:39,792 INFO spawned: 'apached' with pid 732
+2025-03-11 11:52:39,801 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:39,836 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:40,839 INFO spawned: 'apached' with pid 737
+2025-03-11 11:52:40,849 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:40,884 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:41,887 INFO spawned: 'apached' with pid 740
+2025-03-11 11:52:41,897 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:41,932 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:42,936 INFO spawned: 'apached' with pid 742
+2025-03-11 11:52:42,946 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:42,981 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:43,984 INFO spawned: 'apached' with pid 744
+2025-03-11 11:52:43,994 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:44,030 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:45,033 INFO spawned: 'apached' with pid 749
+2025-03-11 11:52:45,042 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:45,076 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:46,079 INFO spawned: 'apached' with pid 751
+2025-03-11 11:52:46,088 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:46,124 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:47,127 INFO spawned: 'apached' with pid 753
+2025-03-11 11:52:47,136 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:47,170 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:48,172 INFO spawned: 'apached' with pid 755
+2025-03-11 11:52:48,181 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:48,213 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:49,216 INFO spawned: 'apached' with pid 757
+2025-03-11 11:52:49,225 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:49,259 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:50,263 INFO spawned: 'apached' with pid 767
+2025-03-11 11:52:50,272 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:50,307 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:51,310 INFO spawned: 'apached' with pid 769
+2025-03-11 11:52:51,320 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:51,355 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:52,358 INFO spawned: 'apached' with pid 771
+2025-03-11 11:52:52,367 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:52,394 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:53,397 INFO spawned: 'apached' with pid 773
+2025-03-11 11:52:53,407 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:53,442 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:54,445 INFO spawned: 'apached' with pid 775
+2025-03-11 11:52:54,455 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:54,491 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:55,494 INFO spawned: 'apached' with pid 780
+2025-03-11 11:52:55,504 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:55,539 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:56,542 INFO spawned: 'apached' with pid 782
+2025-03-11 11:52:56,552 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:56,587 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:57,590 INFO spawned: 'apached' with pid 784
+2025-03-11 11:52:57,600 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:57,634 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:58,637 INFO spawned: 'apached' with pid 786
+2025-03-11 11:52:58,649 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:58,689 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:52:59,692 INFO spawned: 'apached' with pid 788
+2025-03-11 11:52:59,701 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:52:59,735 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:00,738 INFO spawned: 'apached' with pid 793
+2025-03-11 11:53:00,747 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:00,780 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:01,782 INFO spawned: 'apached' with pid 795
+2025-03-11 11:53:01,792 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:01,827 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:02,831 INFO spawned: 'apached' with pid 797
+2025-03-11 11:53:02,839 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:02,874 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:03,876 INFO spawned: 'apached' with pid 799
+2025-03-11 11:53:03,885 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:03,923 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:04,925 INFO spawned: 'apached' with pid 801
+2025-03-11 11:53:04,934 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:04,972 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:05,975 INFO spawned: 'apached' with pid 806
+2025-03-11 11:53:05,985 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:06,021 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:07,023 INFO spawned: 'apached' with pid 808
+2025-03-11 11:53:07,031 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:07,067 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:08,069 INFO spawned: 'apached' with pid 810
+2025-03-11 11:53:08,078 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:08,112 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:09,115 INFO spawned: 'apached' with pid 812
+2025-03-11 11:53:09,125 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:09,159 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:10,162 INFO spawned: 'apached' with pid 817
+2025-03-11 11:53:10,171 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:10,201 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:11,204 INFO spawned: 'apached' with pid 819
+2025-03-11 11:53:11,214 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:11,250 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:12,253 INFO spawned: 'apached' with pid 821
+2025-03-11 11:53:12,262 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:12,297 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:13,300 INFO spawned: 'apached' with pid 823
+2025-03-11 11:53:13,309 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:13,347 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:14,350 INFO spawned: 'apached' with pid 825
+2025-03-11 11:53:14,359 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:14,394 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:15,397 INFO spawned: 'apached' with pid 830
+2025-03-11 11:53:15,406 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:15,441 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:16,444 INFO spawned: 'apached' with pid 832
+2025-03-11 11:53:16,454 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:16,489 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:17,492 INFO spawned: 'apached' with pid 834
+2025-03-11 11:53:17,502 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:17,538 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:18,541 INFO spawned: 'apached' with pid 836
+2025-03-11 11:53:18,549 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:18,584 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:19,587 INFO spawned: 'apached' with pid 838
+2025-03-11 11:53:19,597 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:19,631 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:20,634 INFO spawned: 'apached' with pid 843
+2025-03-11 11:53:20,644 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:20,679 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:21,682 INFO spawned: 'apached' with pid 845
+2025-03-11 11:53:21,691 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:21,726 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:22,729 INFO spawned: 'apached' with pid 847
+2025-03-11 11:53:22,739 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:22,774 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:23,777 INFO spawned: 'apached' with pid 849
+2025-03-11 11:53:23,787 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:23,829 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:24,832 INFO spawned: 'apached' with pid 851
+2025-03-11 11:53:24,838 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:24,873 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:25,875 INFO spawned: 'apached' with pid 856
+2025-03-11 11:53:25,884 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:25,919 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:26,922 INFO spawned: 'apached' with pid 858
+2025-03-11 11:53:26,932 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:26,967 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:27,970 INFO spawned: 'apached' with pid 860
+2025-03-11 11:53:27,979 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:28,008 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:29,011 INFO spawned: 'apached' with pid 862
+2025-03-11 11:53:29,020 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:29,055 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:30,057 INFO spawned: 'apached' with pid 867
+2025-03-11 11:53:30,066 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:30,101 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:31,104 INFO spawned: 'apached' with pid 869
+2025-03-11 11:53:31,114 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:31,150 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:32,153 INFO spawned: 'apached' with pid 871
+2025-03-11 11:53:32,163 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:32,198 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:33,200 INFO spawned: 'apached' with pid 873
+2025-03-11 11:53:33,212 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:33,247 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:34,250 INFO spawned: 'apached' with pid 875
+2025-03-11 11:53:34,260 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:34,295 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:35,298 INFO spawned: 'apached' with pid 880
+2025-03-11 11:53:35,308 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:35,345 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:36,347 INFO spawned: 'apached' with pid 882
+2025-03-11 11:53:36,357 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:36,393 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:37,396 INFO spawned: 'apached' with pid 884
+2025-03-11 11:53:37,406 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:37,442 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:38,445 INFO spawned: 'apached' with pid 886
+2025-03-11 11:53:38,455 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:38,490 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:39,493 INFO spawned: 'apached' with pid 888
+2025-03-11 11:53:39,503 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:39,538 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:40,540 INFO spawned: 'apached' with pid 893
+2025-03-11 11:53:40,550 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:40,584 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:41,588 INFO spawned: 'apached' with pid 895
+2025-03-11 11:53:41,597 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:41,632 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:42,635 INFO spawned: 'apached' with pid 897
+2025-03-11 11:53:42,644 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:42,679 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:43,682 INFO spawned: 'apached' with pid 899
+2025-03-11 11:53:43,692 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:43,726 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:44,730 INFO spawned: 'apached' with pid 901
+2025-03-11 11:53:44,739 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:44,775 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:45,777 INFO spawned: 'apached' with pid 906
+2025-03-11 11:53:45,783 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:45,808 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:46,811 INFO spawned: 'apached' with pid 908
+2025-03-11 11:53:46,821 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:46,856 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:47,859 INFO spawned: 'apached' with pid 910
+2025-03-11 11:53:47,869 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:47,904 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:48,908 INFO spawned: 'apached' with pid 912
+2025-03-11 11:53:48,918 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:48,953 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:49,956 INFO spawned: 'apached' with pid 914
+2025-03-11 11:53:49,965 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:50,000 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:51,003 INFO spawned: 'apached' with pid 919
+2025-03-11 11:53:51,012 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:51,049 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:52,052 INFO spawned: 'apached' with pid 921
+2025-03-11 11:53:52,061 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:52,098 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:53,101 INFO spawned: 'apached' with pid 923
+2025-03-11 11:53:53,110 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:53,146 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:54,149 INFO spawned: 'apached' with pid 925
+2025-03-11 11:53:54,159 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:54,194 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:55,198 INFO spawned: 'apached' with pid 935
+2025-03-11 11:53:55,207 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:55,243 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:56,246 INFO spawned: 'apached' with pid 937
+2025-03-11 11:53:56,256 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:56,292 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:57,295 INFO spawned: 'apached' with pid 939
+2025-03-11 11:53:57,304 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:57,340 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:58,343 INFO spawned: 'apached' with pid 941
+2025-03-11 11:53:58,353 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:58,389 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:53:59,392 INFO spawned: 'apached' with pid 943
+2025-03-11 11:53:59,402 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:53:59,438 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:00,440 INFO spawned: 'apached' with pid 948
+2025-03-11 11:54:00,446 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:00,479 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:01,483 INFO spawned: 'apached' with pid 950
+2025-03-11 11:54:01,493 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:01,528 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:02,532 INFO spawned: 'apached' with pid 952
+2025-03-11 11:54:02,542 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:02,577 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:03,580 INFO spawned: 'apached' with pid 954
+2025-03-11 11:54:03,589 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:03,622 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:04,626 INFO spawned: 'apached' with pid 956
+2025-03-11 11:54:04,635 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:04,669 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:05,673 INFO spawned: 'apached' with pid 962
+2025-03-11 11:54:05,682 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:05,717 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:06,720 INFO spawned: 'apached' with pid 964
+2025-03-11 11:54:06,730 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:06,764 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:07,767 INFO spawned: 'apached' with pid 966
+2025-03-11 11:54:07,777 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:07,812 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:08,815 INFO spawned: 'apached' with pid 968
+2025-03-11 11:54:08,830 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:08,872 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:09,875 INFO spawned: 'apached' with pid 970
+2025-03-11 11:54:09,885 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:09,919 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:10,922 INFO spawned: 'apached' with pid 975
+2025-03-11 11:54:10,932 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:10,968 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:11,972 INFO spawned: 'apached' with pid 977
+2025-03-11 11:54:11,981 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:12,017 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:13,020 INFO spawned: 'apached' with pid 979
+2025-03-11 11:54:13,030 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:13,067 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:14,071 INFO spawned: 'apached' with pid 981
+2025-03-11 11:54:14,081 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:14,116 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:15,119 INFO spawned: 'apached' with pid 986
+2025-03-11 11:54:15,128 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:15,161 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:16,165 INFO spawned: 'apached' with pid 988
+2025-03-11 11:54:16,174 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:16,210 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:17,212 INFO spawned: 'apached' with pid 990
+2025-03-11 11:54:17,222 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:17,257 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:18,260 INFO spawned: 'apached' with pid 992
+2025-03-11 11:54:18,267 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:18,301 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:19,305 INFO spawned: 'apached' with pid 994
+2025-03-11 11:54:19,314 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:19,350 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:20,353 INFO spawned: 'apached' with pid 999
+2025-03-11 11:54:20,363 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:20,397 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:21,400 INFO spawned: 'apached' with pid 1001
+2025-03-11 11:54:21,410 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:21,440 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:22,444 INFO spawned: 'apached' with pid 1003
+2025-03-11 11:54:22,453 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:22,489 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:23,491 INFO spawned: 'apached' with pid 1005
+2025-03-11 11:54:23,501 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:23,536 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:24,539 INFO spawned: 'apached' with pid 1007
+2025-03-11 11:54:24,548 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:24,584 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:25,586 INFO spawned: 'apached' with pid 1012
+2025-03-11 11:54:25,596 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:25,632 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:26,636 INFO spawned: 'apached' with pid 1014
+2025-03-11 11:54:26,645 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:26,682 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:27,686 INFO spawned: 'apached' with pid 1016
+2025-03-11 11:54:27,696 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:27,731 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:28,734 INFO spawned: 'apached' with pid 1018
+2025-03-11 11:54:28,743 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:28,778 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:29,781 INFO spawned: 'apached' with pid 1020
+2025-03-11 11:54:29,792 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:29,828 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:30,830 INFO spawned: 'apached' with pid 1025
+2025-03-11 11:54:30,840 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:30,875 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:31,878 INFO spawned: 'apached' with pid 1027
+2025-03-11 11:54:31,887 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:31,922 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:32,925 INFO spawned: 'apached' with pid 1029
+2025-03-11 11:54:32,935 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:32,970 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:33,974 INFO spawned: 'apached' with pid 1031
+2025-03-11 11:54:33,984 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:34,020 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:35,023 INFO spawned: 'apached' with pid 1033
+2025-03-11 11:54:35,033 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:35,068 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:36,070 INFO spawned: 'apached' with pid 1038
+2025-03-11 11:54:36,075 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:36,107 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:37,111 INFO spawned: 'apached' with pid 1040
+2025-03-11 11:54:37,120 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:37,156 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:38,159 INFO spawned: 'apached' with pid 1042
+2025-03-11 11:54:38,169 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:38,204 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:39,207 INFO spawned: 'apached' with pid 1044
+2025-03-11 11:54:39,216 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:39,250 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:40,253 INFO spawned: 'apached' with pid 1049
+2025-03-11 11:54:40,262 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:40,297 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:41,300 INFO spawned: 'apached' with pid 1051
+2025-03-11 11:54:41,310 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:41,346 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:42,349 INFO spawned: 'apached' with pid 1053
+2025-03-11 11:54:42,356 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:42,390 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:43,394 INFO spawned: 'apached' with pid 1055
+2025-03-11 11:54:43,403 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:43,436 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:44,439 INFO spawned: 'apached' with pid 1059
+2025-03-11 11:54:44,447 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:44,475 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:45,478 INFO spawned: 'apached' with pid 1077
+2025-03-11 11:54:45,487 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:45,522 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:46,525 INFO spawned: 'apached' with pid 1079
+2025-03-11 11:54:46,535 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:46,569 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:47,572 INFO spawned: 'apached' with pid 1081
+2025-03-11 11:54:47,582 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:47,617 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:48,619 INFO spawned: 'apached' with pid 1093
+2025-03-11 11:54:48,624 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:48,655 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:49,657 INFO spawned: 'apached' with pid 1103
+2025-03-11 11:54:49,667 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:49,704 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:50,706 INFO spawned: 'apached' with pid 1108
+2025-03-11 11:54:50,715 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:50,750 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:51,753 INFO spawned: 'apached' with pid 1110
+2025-03-11 11:54:51,763 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:51,798 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:52,802 INFO spawned: 'apached' with pid 1112
+2025-03-11 11:54:52,811 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:52,845 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:53,848 INFO spawned: 'apached' with pid 1114
+2025-03-11 11:54:53,854 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:53,877 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:54,880 INFO spawned: 'apached' with pid 1116
+2025-03-11 11:54:54,889 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:54,924 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:55,928 INFO spawned: 'apached' with pid 1121
+2025-03-11 11:54:55,938 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:55,974 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:56,978 INFO spawned: 'apached' with pid 1123
+2025-03-11 11:54:56,986 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:57,022 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:58,024 INFO spawned: 'apached' with pid 1125
+2025-03-11 11:54:58,034 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:58,070 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:54:59,072 INFO spawned: 'apached' with pid 1127
+2025-03-11 11:54:59,082 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:54:59,117 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:00,121 INFO spawned: 'apached' with pid 1132
+2025-03-11 11:55:00,130 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:00,165 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:01,168 INFO spawned: 'apached' with pid 1274
+2025-03-11 11:55:01,178 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:01,224 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:02,228 INFO spawned: 'apached' with pid 1276
+2025-03-11 11:55:02,237 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:02,273 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:03,276 INFO spawned: 'apached' with pid 1278
+2025-03-11 11:55:03,285 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:03,319 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:04,323 INFO spawned: 'apached' with pid 1280
+2025-03-11 11:55:04,332 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:04,368 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:05,371 INFO spawned: 'apached' with pid 1285
+2025-03-11 11:55:05,380 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:05,415 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:06,418 INFO spawned: 'apached' with pid 1287
+2025-03-11 11:55:06,427 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:06,461 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:07,464 INFO spawned: 'apached' with pid 1289
+2025-03-11 11:55:07,474 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:07,509 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:08,512 INFO spawned: 'apached' with pid 1291
+2025-03-11 11:55:08,518 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:08,543 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:09,546 INFO spawned: 'apached' with pid 1293
+2025-03-11 11:55:09,551 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:09,573 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:10,577 INFO spawned: 'apached' with pid 1298
+2025-03-11 11:55:10,586 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:10,620 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:11,623 INFO spawned: 'apached' with pid 1300
+2025-03-11 11:55:11,631 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:11,658 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:12,661 INFO spawned: 'apached' with pid 1302
+2025-03-11 11:55:12,671 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:12,707 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:13,709 INFO spawned: 'apached' with pid 1304
+2025-03-11 11:55:13,719 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:13,753 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:14,757 INFO spawned: 'apached' with pid 1306
+2025-03-11 11:55:14,767 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:14,802 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:15,805 INFO spawned: 'apached' with pid 1311
+2025-03-11 11:55:15,815 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:15,852 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:16,857 INFO spawned: 'apached' with pid 1313
+2025-03-11 11:55:16,869 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:16,905 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:17,908 INFO spawned: 'apached' with pid 1315
+2025-03-11 11:55:17,916 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:17,952 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:18,954 INFO spawned: 'apached' with pid 1317
+2025-03-11 11:55:18,958 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:18,985 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:19,988 INFO spawned: 'apached' with pid 1319
+2025-03-11 11:55:19,997 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:20,033 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:21,036 INFO spawned: 'apached' with pid 1324
+2025-03-11 11:55:21,046 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:21,080 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:22,083 INFO spawned: 'apached' with pid 1326
+2025-03-11 11:55:22,093 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:22,128 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:23,131 INFO spawned: 'apached' with pid 1328
+2025-03-11 11:55:23,141 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:23,177 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:24,181 INFO spawned: 'apached' with pid 1330
+2025-03-11 11:55:24,192 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:24,227 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:25,230 INFO spawned: 'apached' with pid 1335
+2025-03-11 11:55:25,239 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:25,276 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:26,280 INFO spawned: 'apached' with pid 1337
+2025-03-11 11:55:26,290 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:26,326 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:27,329 INFO spawned: 'apached' with pid 1339
+2025-03-11 11:55:27,339 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:27,376 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:28,379 INFO spawned: 'apached' with pid 1341
+2025-03-11 11:55:28,390 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:28,427 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:29,429 INFO spawned: 'apached' with pid 1343
+2025-03-11 11:55:29,433 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:29,455 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:30,459 INFO spawned: 'apached' with pid 1348
+2025-03-11 11:55:30,468 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:30,504 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:31,508 INFO spawned: 'apached' with pid 1350
+2025-03-11 11:55:31,518 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:31,554 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:32,558 INFO spawned: 'apached' with pid 1352
+2025-03-11 11:55:32,568 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:32,604 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:33,608 INFO spawned: 'apached' with pid 1354
+2025-03-11 11:55:33,618 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:33,653 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:34,657 INFO spawned: 'apached' with pid 1356
+2025-03-11 11:55:34,671 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:34,711 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:35,714 INFO spawned: 'apached' with pid 1361
+2025-03-11 11:55:35,724 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:35,760 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:36,763 INFO spawned: 'apached' with pid 1363
+2025-03-11 11:55:36,773 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:36,808 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:37,811 INFO spawned: 'apached' with pid 1365
+2025-03-11 11:55:37,820 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:37,856 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:38,858 INFO spawned: 'apached' with pid 1367
+2025-03-11 11:55:38,867 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:38,906 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:39,908 INFO spawned: 'apached' with pid 1369
+2025-03-11 11:55:39,917 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:39,954 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:40,956 INFO spawned: 'apached' with pid 1374
+2025-03-11 11:55:40,965 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:41,001 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:42,004 INFO spawned: 'apached' with pid 1376
+2025-03-11 11:55:42,013 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:42,051 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:43,053 INFO spawned: 'apached' with pid 1378
+2025-03-11 11:55:43,062 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:43,100 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:44,102 INFO spawned: 'apached' with pid 1380
+2025-03-11 11:55:44,112 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:44,149 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:45,151 INFO spawned: 'apached' with pid 1385
+2025-03-11 11:55:45,160 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:45,196 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:46,199 INFO spawned: 'apached' with pid 1387
+2025-03-11 11:55:46,209 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:46,247 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:47,248 INFO spawned: 'apached' with pid 1389
+2025-03-11 11:55:47,253 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:47,275 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:48,278 INFO spawned: 'apached' with pid 1391
+2025-03-11 11:55:48,288 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:48,323 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:49,326 INFO spawned: 'apached' with pid 1393
+2025-03-11 11:55:49,336 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:49,373 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:50,377 INFO spawned: 'apached' with pid 1398
+2025-03-11 11:55:50,386 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:50,423 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:51,427 INFO spawned: 'apached' with pid 1400
+2025-03-11 11:55:51,436 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:51,474 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:52,477 INFO spawned: 'apached' with pid 1402
+2025-03-11 11:55:52,487 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:52,526 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:53,528 INFO spawned: 'apached' with pid 1404
+2025-03-11 11:55:53,537 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:53,573 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:54,575 INFO spawned: 'apached' with pid 1406
+2025-03-11 11:55:54,584 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:54,621 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:55,623 INFO spawned: 'apached' with pid 1411
+2025-03-11 11:55:55,636 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:55,672 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:56,674 INFO spawned: 'apached' with pid 1413
+2025-03-11 11:55:56,684 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:56,721 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:57,724 INFO spawned: 'apached' with pid 1415
+2025-03-11 11:55:57,733 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:57,770 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:58,773 INFO spawned: 'apached' with pid 1417
+2025-03-11 11:55:58,783 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:58,820 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:55:59,823 INFO spawned: 'apached' with pid 1419
+2025-03-11 11:55:59,832 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:55:59,870 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:00,872 INFO spawned: 'apached' with pid 1424
+2025-03-11 11:56:00,882 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:00,918 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:01,921 INFO spawned: 'apached' with pid 1426
+2025-03-11 11:56:01,930 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:01,967 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:02,969 INFO spawned: 'apached' with pid 1428
+2025-03-11 11:56:02,978 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:03,013 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:04,017 INFO spawned: 'apached' with pid 1430
+2025-03-11 11:56:04,026 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:04,063 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:05,065 INFO spawned: 'apached' with pid 1432
+2025-03-11 11:56:05,070 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:05,093 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:06,095 INFO spawned: 'apached' with pid 1437
+2025-03-11 11:56:06,105 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:06,143 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:07,146 INFO spawned: 'apached' with pid 1439
+2025-03-11 11:56:07,155 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:07,193 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:08,195 INFO spawned: 'apached' with pid 1441
+2025-03-11 11:56:08,205 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:08,243 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:09,245 INFO spawned: 'apached' with pid 1443
+2025-03-11 11:56:09,254 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:09,293 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:10,296 INFO spawned: 'apached' with pid 1448
+2025-03-11 11:56:10,307 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:10,346 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:11,348 INFO spawned: 'apached' with pid 1450
+2025-03-11 11:56:11,358 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:11,394 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:12,397 INFO spawned: 'apached' with pid 1452
+2025-03-11 11:56:12,407 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:12,443 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:13,446 INFO spawned: 'apached' with pid 1454
+2025-03-11 11:56:13,456 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:13,493 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:14,495 INFO spawned: 'apached' with pid 1456
+2025-03-11 11:56:14,505 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:14,541 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:15,544 INFO spawned: 'apached' with pid 1461
+2025-03-11 11:56:15,555 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:15,592 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:16,595 INFO spawned: 'apached' with pid 1463
+2025-03-11 11:56:16,606 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:16,642 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:17,644 INFO spawned: 'apached' with pid 1465
+2025-03-11 11:56:17,654 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:17,689 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:18,693 INFO spawned: 'apached' with pid 1467
+2025-03-11 11:56:18,702 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:18,738 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:19,741 INFO spawned: 'apached' with pid 1469
+2025-03-11 11:56:19,750 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:19,784 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:20,788 INFO spawned: 'apached' with pid 1474
+2025-03-11 11:56:20,797 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:20,833 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:21,836 INFO spawned: 'apached' with pid 1476
+2025-03-11 11:56:21,845 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:21,880 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:22,883 INFO spawned: 'apached' with pid 1478
+2025-03-11 11:56:22,889 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:22,914 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:23,916 INFO spawned: 'apached' with pid 1480
+2025-03-11 11:56:23,925 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:23,961 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:24,964 INFO spawned: 'apached' with pid 1482
+2025-03-11 11:56:24,973 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:25,006 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:26,010 INFO spawned: 'apached' with pid 1487
+2025-03-11 11:56:26,019 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:26,055 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:27,059 INFO spawned: 'apached' with pid 1489
+2025-03-11 11:56:27,068 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:27,104 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:28,107 INFO spawned: 'apached' with pid 1491
+2025-03-11 11:56:28,117 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:28,152 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:29,155 INFO spawned: 'apached' with pid 1493
+2025-03-11 11:56:29,165 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:29,202 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:30,205 INFO spawned: 'apached' with pid 1498
+2025-03-11 11:56:30,214 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:30,250 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:31,253 INFO spawned: 'apached' with pid 1501
+2025-03-11 11:56:31,263 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:31,298 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:32,302 INFO spawned: 'apached' with pid 1503
+2025-03-11 11:56:32,312 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:32,347 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:33,351 INFO spawned: 'apached' with pid 1505
+2025-03-11 11:56:33,360 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:33,394 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:34,396 INFO spawned: 'apached' with pid 1509
+2025-03-11 11:56:34,401 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:34,427 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:35,430 INFO spawned: 'apached' with pid 1527
+2025-03-11 11:56:35,439 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:35,471 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:36,474 INFO spawned: 'apached' with pid 1529
+2025-03-11 11:56:36,479 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:36,500 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:37,503 INFO spawned: 'apached' with pid 1532
+2025-03-11 11:56:37,507 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:37,530 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:38,533 INFO spawned: 'apached' with pid 1534
+2025-03-11 11:56:38,543 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:38,578 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:39,582 INFO spawned: 'apached' with pid 1536
+2025-03-11 11:56:39,592 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:39,627 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:40,630 INFO spawned: 'apached' with pid 1541
+2025-03-11 11:56:40,639 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:40,675 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:41,678 INFO spawned: 'apached' with pid 1543
+2025-03-11 11:56:41,688 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:41,724 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:42,726 INFO spawned: 'apached' with pid 1545
+2025-03-11 11:56:42,736 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:42,771 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:43,775 INFO spawned: 'apached' with pid 1547
+2025-03-11 11:56:43,785 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:43,820 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:44,823 INFO spawned: 'apached' with pid 1549
+2025-03-11 11:56:44,833 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:44,869 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:45,873 INFO spawned: 'apached' with pid 1554
+2025-03-11 11:56:45,882 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:45,918 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:46,921 INFO spawned: 'apached' with pid 1556
+2025-03-11 11:56:46,930 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:46,964 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:47,966 INFO spawned: 'apached' with pid 1558
+2025-03-11 11:56:47,976 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:48,011 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:49,013 INFO spawned: 'apached' with pid 1560
+2025-03-11 11:56:49,023 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:49,058 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:50,061 INFO spawned: 'apached' with pid 1562
+2025-03-11 11:56:50,070 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:50,106 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:51,108 INFO spawned: 'apached' with pid 1567
+2025-03-11 11:56:51,118 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:51,155 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:52,158 INFO spawned: 'apached' with pid 1569
+2025-03-11 11:56:52,167 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:52,201 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:53,204 INFO spawned: 'apached' with pid 1571
+2025-03-11 11:56:53,214 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:53,248 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:54,251 INFO spawned: 'apached' with pid 1573
+2025-03-11 11:56:54,260 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:54,295 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:55,298 INFO spawned: 'apached' with pid 1578
+2025-03-11 11:56:55,303 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:55,325 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:56,329 INFO spawned: 'apached' with pid 1580
+2025-03-11 11:56:56,339 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:56,374 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:57,377 INFO spawned: 'apached' with pid 1582
+2025-03-11 11:56:57,387 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:57,422 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:58,425 INFO spawned: 'apached' with pid 1584
+2025-03-11 11:56:58,434 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:58,468 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:56:59,471 INFO spawned: 'apached' with pid 1586
+2025-03-11 11:56:59,481 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:56:59,516 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:00,518 INFO spawned: 'apached' with pid 1591
+2025-03-11 11:57:00,528 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:00,564 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:01,567 INFO spawned: 'apached' with pid 1593
+2025-03-11 11:57:01,577 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:01,612 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:02,614 INFO spawned: 'apached' with pid 1595
+2025-03-11 11:57:02,624 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:02,658 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:03,662 INFO spawned: 'apached' with pid 1597
+2025-03-11 11:57:03,676 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:03,708 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:04,711 INFO spawned: 'apached' with pid 1599
+2025-03-11 11:57:04,720 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:04,755 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:05,758 INFO spawned: 'apached' with pid 1604
+2025-03-11 11:57:05,768 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:05,803 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:06,807 INFO spawned: 'apached' with pid 1606
+2025-03-11 11:57:06,817 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:06,852 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:07,856 INFO spawned: 'apached' with pid 1608
+2025-03-11 11:57:07,865 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:07,901 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:08,904 INFO spawned: 'apached' with pid 1610
+2025-03-11 11:57:08,914 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:08,949 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:09,953 INFO spawned: 'apached' with pid 1612
+2025-03-11 11:57:09,962 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:09,996 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:10,999 INFO spawned: 'apached' with pid 1617
+2025-03-11 11:57:11,009 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:11,044 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:12,047 INFO spawned: 'apached' with pid 1619
+2025-03-11 11:57:12,057 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:12,092 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:13,093 INFO spawned: 'apached' with pid 1621
+2025-03-11 11:57:13,098 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:13,120 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:14,123 INFO spawned: 'apached' with pid 1623
+2025-03-11 11:57:14,133 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:14,169 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:15,173 INFO spawned: 'apached' with pid 1625
+2025-03-11 11:57:15,183 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:15,218 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:16,221 INFO spawned: 'apached' with pid 1630
+2025-03-11 11:57:16,231 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:16,273 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:17,277 INFO spawned: 'apached' with pid 1632
+2025-03-11 11:57:17,287 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:17,322 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:18,325 INFO spawned: 'apached' with pid 1634
+2025-03-11 11:57:18,334 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:18,368 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:19,371 INFO spawned: 'apached' with pid 1636
+2025-03-11 11:57:19,381 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:19,417 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:20,421 INFO spawned: 'apached' with pid 1641
+2025-03-11 11:57:20,430 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:20,466 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:21,470 INFO spawned: 'apached' with pid 1643
+2025-03-11 11:57:21,478 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:21,512 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:22,516 INFO spawned: 'apached' with pid 1645
+2025-03-11 11:57:22,526 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:22,561 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:23,565 INFO spawned: 'apached' with pid 1647
+2025-03-11 11:57:23,574 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:23,608 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:24,611 INFO spawned: 'apached' with pid 1649
+2025-03-11 11:57:24,620 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:24,655 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:25,658 INFO spawned: 'apached' with pid 1654
+2025-03-11 11:57:25,668 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:25,704 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:26,707 INFO spawned: 'apached' with pid 1656
+2025-03-11 11:57:26,717 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:26,752 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:27,755 INFO spawned: 'apached' with pid 1658
+2025-03-11 11:57:27,766 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:27,801 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:28,804 INFO spawned: 'apached' with pid 1660
+2025-03-11 11:57:28,814 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:28,849 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:29,853 INFO spawned: 'apached' with pid 1662
+2025-03-11 11:57:29,863 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:29,898 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:30,900 INFO spawned: 'apached' with pid 1667
+2025-03-11 11:57:30,905 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:30,931 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:31,934 INFO spawned: 'apached' with pid 1669
+2025-03-11 11:57:31,944 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:31,978 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:32,981 INFO spawned: 'apached' with pid 1671
+2025-03-11 11:57:32,991 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:33,026 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:34,029 INFO spawned: 'apached' with pid 1673
+2025-03-11 11:57:34,042 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:34,078 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:35,082 INFO spawned: 'apached' with pid 1675
+2025-03-11 11:57:35,092 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:35,127 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:36,131 INFO spawned: 'apached' with pid 1680
+2025-03-11 11:57:36,141 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:36,176 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:37,179 INFO spawned: 'apached' with pid 1682
+2025-03-11 11:57:37,189 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:37,224 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:38,227 INFO spawned: 'apached' with pid 1684
+2025-03-11 11:57:38,237 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:38,273 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:39,276 INFO spawned: 'apached' with pid 1686
+2025-03-11 11:57:39,286 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:39,321 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:40,324 INFO spawned: 'apached' with pid 1691
+2025-03-11 11:57:40,333 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:40,368 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:41,370 INFO spawned: 'apached' with pid 1693
+2025-03-11 11:57:41,380 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:41,414 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:42,417 INFO spawned: 'apached' with pid 1695
+2025-03-11 11:57:42,427 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:42,462 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:43,465 INFO spawned: 'apached' with pid 1697
+2025-03-11 11:57:43,475 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:43,511 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:44,513 INFO spawned: 'apached' with pid 1699
+2025-03-11 11:57:44,522 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:44,557 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:45,560 INFO spawned: 'apached' with pid 1704
+2025-03-11 11:57:45,569 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:45,606 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:46,609 INFO spawned: 'apached' with pid 1706
+2025-03-11 11:57:46,619 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:46,653 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:47,656 INFO spawned: 'apached' with pid 1708
+2025-03-11 11:57:47,666 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:47,701 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:48,702 INFO spawned: 'apached' with pid 1710
+2025-03-11 11:57:48,707 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:48,733 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:49,737 INFO spawned: 'apached' with pid 1712
+2025-03-11 11:57:49,746 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:49,781 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:50,784 INFO spawned: 'apached' with pid 1717
+2025-03-11 11:57:50,794 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:50,828 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:51,831 INFO spawned: 'apached' with pid 1719
+2025-03-11 11:57:51,841 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:51,876 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:52,880 INFO spawned: 'apached' with pid 1721
+2025-03-11 11:57:52,889 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:52,927 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:53,929 INFO spawned: 'apached' with pid 1723
+2025-03-11 11:57:53,939 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:53,974 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:54,977 INFO spawned: 'apached' with pid 1725
+2025-03-11 11:57:54,989 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:55,023 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:56,026 INFO spawned: 'apached' with pid 1730
+2025-03-11 11:57:56,035 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:56,070 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:57,073 INFO spawned: 'apached' with pid 1732
+2025-03-11 11:57:57,082 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:57,117 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:58,120 INFO spawned: 'apached' with pid 1734
+2025-03-11 11:57:58,129 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:58,163 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:57:59,166 INFO spawned: 'apached' with pid 1736
+2025-03-11 11:57:59,175 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:57:59,210 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:00,213 INFO spawned: 'apached' with pid 1738
+2025-03-11 11:58:00,223 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:00,260 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:01,262 INFO spawned: 'apached' with pid 1743
+2025-03-11 11:58:01,268 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:01,292 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:02,295 INFO spawned: 'apached' with pid 1745
+2025-03-11 11:58:02,304 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:02,339 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:03,343 INFO spawned: 'apached' with pid 1747
+2025-03-11 11:58:03,352 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:03,387 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:04,389 INFO spawned: 'apached' with pid 1749
+2025-03-11 11:58:04,398 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:04,437 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:05,440 INFO spawned: 'apached' with pid 1754
+2025-03-11 11:58:05,449 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:05,484 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:06,487 INFO spawned: 'apached' with pid 1756
+2025-03-11 11:58:06,494 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:06,527 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:07,531 INFO spawned: 'apached' with pid 1758
+2025-03-11 11:58:07,541 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:07,577 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:08,580 INFO spawned: 'apached' with pid 1760
+2025-03-11 11:58:08,590 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:08,625 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:09,628 INFO spawned: 'apached' with pid 1762
+2025-03-11 11:58:09,637 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:09,667 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:10,670 INFO spawned: 'apached' with pid 1767
+2025-03-11 11:58:10,679 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:10,712 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:11,715 INFO spawned: 'apached' with pid 1769
+2025-03-11 11:58:11,724 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:11,758 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:12,760 INFO spawned: 'apached' with pid 1771
+2025-03-11 11:58:12,769 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:12,804 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:13,808 INFO spawned: 'apached' with pid 1773
+2025-03-11 11:58:13,817 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:13,853 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:14,856 INFO spawned: 'apached' with pid 1775
+2025-03-11 11:58:14,865 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:14,900 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:15,904 INFO spawned: 'apached' with pid 1780
+2025-03-11 11:58:15,924 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:15,948 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:16,950 INFO spawned: 'apached' with pid 1782
+2025-03-11 11:58:16,960 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:16,995 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:17,998 INFO spawned: 'apached' with pid 1784
+2025-03-11 11:58:18,008 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:18,042 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:19,044 INFO spawned: 'apached' with pid 1786
+2025-03-11 11:58:19,054 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:19,089 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:20,091 INFO spawned: 'apached' with pid 1788
+2025-03-11 11:58:20,100 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:20,135 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:21,137 INFO spawned: 'apached' with pid 1793
+2025-03-11 11:58:21,143 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:21,168 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:22,172 INFO spawned: 'apached' with pid 1795
+2025-03-11 11:58:22,181 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:22,216 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:23,220 INFO spawned: 'apached' with pid 1797
+2025-03-11 11:58:23,229 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:23,264 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:24,267 INFO spawned: 'apached' with pid 1799
+2025-03-11 11:58:24,276 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:24,310 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:25,313 INFO spawned: 'apached' with pid 1803
+2025-03-11 11:58:25,322 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:25,357 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:26,360 INFO spawned: 'apached' with pid 1806
+2025-03-11 11:58:26,369 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:26,403 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:27,406 INFO spawned: 'apached' with pid 1808
+2025-03-11 11:58:27,415 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:27,443 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:28,447 INFO spawned: 'apached' with pid 1810
+2025-03-11 11:58:28,456 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:28,490 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:29,493 INFO spawned: 'apached' with pid 1812
+2025-03-11 11:58:29,503 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:29,539 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:30,541 INFO spawned: 'apached' with pid 1817
+2025-03-11 11:58:30,551 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:30,587 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:31,590 INFO spawned: 'apached' with pid 1819
+2025-03-11 11:58:31,599 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:31,634 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:32,637 INFO spawned: 'apached' with pid 1821
+2025-03-11 11:58:32,646 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:32,679 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:33,682 INFO spawned: 'apached' with pid 1823
+2025-03-11 11:58:33,693 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:33,729 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:34,733 INFO spawned: 'apached' with pid 1825
+2025-03-11 11:58:34,742 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:34,776 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:35,780 INFO spawned: 'apached' with pid 1830
+2025-03-11 11:58:35,789 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:35,824 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:36,828 INFO spawned: 'apached' with pid 1832
+2025-03-11 11:58:36,837 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:36,872 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:37,876 INFO spawned: 'apached' with pid 1834
+2025-03-11 11:58:37,885 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:37,920 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:38,923 INFO spawned: 'apached' with pid 1836
+2025-03-11 11:58:38,932 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:38,968 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:39,972 INFO spawned: 'apached' with pid 1838
+2025-03-11 11:58:39,982 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:40,017 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:41,021 INFO spawned: 'apached' with pid 1843
+2025-03-11 11:58:41,030 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:41,064 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:42,066 INFO spawned: 'apached' with pid 1845
+2025-03-11 11:58:42,071 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:42,093 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:43,097 INFO spawned: 'apached' with pid 1847
+2025-03-11 11:58:43,106 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:43,141 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:44,145 INFO spawned: 'apached' with pid 1849
+2025-03-11 11:58:44,154 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:44,190 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:45,193 INFO spawned: 'apached' with pid 1851
+2025-03-11 11:58:45,203 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-11 11:58:45,239 WARN exited: apached (exit status 1; not expected)
+2025-03-11 11:58:46,242 INFO spawned: 'apached' with pid 1856
+2025-03-11 11:58:46,251 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-15 18:22:49,673 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-15 18:22:49,673 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-15 18:22:49,682 INFO RPC interface 'supervisor' initialized
+2025-03-15 18:22:49,683 INFO supervisord started with pid 89
+2025-03-15 18:22:50,688 INFO spawned: 'syslogd' with pid 90
+2025-03-15 18:22:50,690 INFO spawned: 'apached' with pid 91
+2025-03-15 18:22:50,693 INFO spawned: 'php-fpmd' with pid 92
+2025-03-15 18:22:50,696 INFO spawned: 'crond' with pid 93
+2025-03-15 18:22:50,699 INFO spawned: 'postfixd' with pid 94
+2025-03-15 18:22:50,702 INFO spawned: 'sshd' with pid 97
+2025-03-15 18:22:50,704 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-15 18:22:50,704 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-15 18:22:50,704 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-15 18:22:50,704 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-15 18:22:50,704 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-15 18:22:52,207 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-16 09:55:24,776 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-16 09:55:24,777 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-16 09:55:24,783 INFO RPC interface 'supervisor' initialized
+2025-03-16 09:55:24,784 INFO supervisord started with pid 88
+2025-03-16 09:55:25,787 INFO spawned: 'syslogd' with pid 89
+2025-03-16 09:55:25,790 INFO spawned: 'apached' with pid 90
+2025-03-16 09:55:25,794 INFO spawned: 'php-fpmd' with pid 91
+2025-03-16 09:55:25,797 INFO spawned: 'crond' with pid 92
+2025-03-16 09:55:25,801 INFO spawned: 'postfixd' with pid 94
+2025-03-16 09:55:25,804 INFO spawned: 'sshd' with pid 96
+2025-03-16 09:55:25,806 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:25,806 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:25,806 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:25,806 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:25,806 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:25,901 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:25,928 INFO spawned: 'apached' with pid 130
+2025-03-16 09:55:25,937 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:25,971 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:26,272 INFO spawned: 'apached' with pid 132
+2025-03-16 09:55:26,280 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:26,308 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:27,309 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-16 09:55:27,312 INFO spawned: 'apached' with pid 136
+2025-03-16 09:55:27,322 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:27,359 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:28,362 INFO spawned: 'apached' with pid 231
+2025-03-16 09:55:28,372 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:28,408 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:29,411 INFO spawned: 'apached' with pid 233
+2025-03-16 09:55:29,421 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:29,458 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:30,461 INFO spawned: 'apached' with pid 235
+2025-03-16 09:55:30,471 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:30,509 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:31,513 INFO spawned: 'apached' with pid 240
+2025-03-16 09:55:31,522 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:31,557 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:32,561 INFO spawned: 'apached' with pid 242
+2025-03-16 09:55:32,572 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:32,608 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:33,611 INFO spawned: 'apached' with pid 244
+2025-03-16 09:55:33,622 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:33,659 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:34,663 INFO spawned: 'apached' with pid 246
+2025-03-16 09:55:34,675 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:34,710 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:35,713 INFO spawned: 'apached' with pid 248
+2025-03-16 09:55:35,723 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:35,759 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:36,762 INFO spawned: 'apached' with pid 253
+2025-03-16 09:55:36,772 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:36,808 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:37,811 INFO spawned: 'apached' with pid 255
+2025-03-16 09:55:37,821 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:37,857 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:38,860 INFO spawned: 'apached' with pid 257
+2025-03-16 09:55:38,869 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:38,903 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:39,907 INFO spawned: 'apached' with pid 259
+2025-03-16 09:55:39,917 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:39,954 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:40,957 INFO spawned: 'apached' with pid 264
+2025-03-16 09:55:40,968 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:41,004 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:42,007 INFO spawned: 'apached' with pid 266
+2025-03-16 09:55:42,017 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:42,052 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:43,055 INFO spawned: 'apached' with pid 268
+2025-03-16 09:55:43,067 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:43,103 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:44,106 INFO spawned: 'apached' with pid 270
+2025-03-16 09:55:44,115 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:44,148 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:45,152 INFO spawned: 'apached' with pid 272
+2025-03-16 09:55:45,161 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:45,197 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:46,199 INFO spawned: 'apached' with pid 277
+2025-03-16 09:55:46,209 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:46,244 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:47,247 INFO spawned: 'apached' with pid 279
+2025-03-16 09:55:47,257 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:47,292 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:48,295 INFO spawned: 'apached' with pid 281
+2025-03-16 09:55:48,304 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:48,340 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:49,343 INFO spawned: 'apached' with pid 283
+2025-03-16 09:55:49,353 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:49,388 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:55:50,392 INFO spawned: 'apached' with pid 285
+2025-03-16 09:55:50,401 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:55:50,437 WARN exited: apached (exit status 1; not expected)
+2025-03-16 09:57:08,287 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-16 09:57:08,287 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-16 09:57:08,290 INFO RPC interface 'supervisor' initialized
+2025-03-16 09:57:08,290 INFO supervisord started with pid 88
+2025-03-16 09:57:09,293 INFO spawned: 'syslogd' with pid 89
+2025-03-16 09:57:09,295 INFO spawned: 'apached' with pid 90
+2025-03-16 09:57:09,297 INFO spawned: 'php-fpmd' with pid 91
+2025-03-16 09:57:09,299 INFO spawned: 'crond' with pid 92
+2025-03-16 09:57:09,303 INFO spawned: 'postfixd' with pid 94
+2025-03-16 09:57:09,306 INFO spawned: 'sshd' with pid 97
+2025-03-16 09:57:09,307 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:57:09,307 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:57:09,308 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:57:09,308 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:57:09,308 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-16 09:57:10,431 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 06:21:14,943 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 06:21:14,943 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 06:21:14,947 INFO RPC interface 'supervisor' initialized
+2025-03-17 06:21:14,948 INFO supervisord started with pid 88
+2025-03-17 06:21:15,952 INFO spawned: 'syslogd' with pid 89
+2025-03-17 06:21:15,955 INFO spawned: 'apached' with pid 90
+2025-03-17 06:21:15,958 INFO spawned: 'php-fpmd' with pid 91
+2025-03-17 06:21:15,960 INFO spawned: 'crond' with pid 92
+2025-03-17 06:21:15,963 INFO spawned: 'postfixd' with pid 93
+2025-03-17 06:21:15,967 INFO spawned: 'sshd' with pid 96
+2025-03-17 06:21:15,968 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 06:21:15,969 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 06:21:15,969 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 06:21:15,969 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 06:21:15,969 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 06:21:17,472 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 08:22:42,740 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 08:22:42,740 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 08:22:42,742 INFO RPC interface 'supervisor' initialized
+2025-03-17 08:22:42,742 INFO supervisord started with pid 87
+2025-03-17 08:22:43,744 INFO spawned: 'syslogd' with pid 88
+2025-03-17 08:22:43,745 INFO spawned: 'apached' with pid 89
+2025-03-17 08:22:43,746 INFO spawned: 'php-fpmd' with pid 90
+2025-03-17 08:22:43,747 INFO spawned: 'crond' with pid 91
+2025-03-17 08:22:43,749 INFO spawned: 'postfixd' with pid 94
+2025-03-17 08:22:43,750 INFO spawned: 'sshd' with pid 96
+2025-03-17 08:22:43,752 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:22:43,752 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:22:43,752 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:22:43,752 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:22:43,752 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:22:44,834 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 08:28:34,037 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 08:28:34,037 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 08:28:34,040 INFO RPC interface 'supervisor' initialized
+2025-03-17 08:28:34,040 INFO supervisord started with pid 90
+2025-03-17 08:28:35,042 INFO spawned: 'syslogd' with pid 91
+2025-03-17 08:28:35,043 INFO spawned: 'apached' with pid 92
+2025-03-17 08:28:35,044 INFO spawned: 'php-fpmd' with pid 93
+2025-03-17 08:28:35,045 INFO spawned: 'crond' with pid 94
+2025-03-17 08:28:35,046 INFO spawned: 'postfixd' with pid 95
+2025-03-17 08:28:35,047 INFO spawned: 'sshd' with pid 99
+2025-03-17 08:28:35,048 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:28:35,049 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:28:35,050 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:28:35,050 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:28:35,050 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 08:28:36,125 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 15:43:49,160 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 15:43:49,160 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 15:43:49,167 INFO RPC interface 'supervisor' initialized
+2025-03-17 15:43:49,167 INFO supervisord started with pid 91
+2025-03-17 15:43:50,171 INFO spawned: 'syslogd' with pid 92
+2025-03-17 15:43:50,174 INFO spawned: 'apached' with pid 93
+2025-03-17 15:43:50,176 INFO spawned: 'php-fpmd' with pid 94
+2025-03-17 15:43:50,179 INFO spawned: 'crond' with pid 95
+2025-03-17 15:43:50,182 INFO spawned: 'postfixd' with pid 96
+2025-03-17 15:43:50,185 INFO spawned: 'sshd' with pid 98
+2025-03-17 15:43:50,187 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:43:50,187 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:43:50,187 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:43:50,188 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:43:50,188 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:43:51,331 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 15:52:32,685 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 15:52:32,685 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 15:52:32,689 INFO RPC interface 'supervisor' initialized
+2025-03-17 15:52:32,689 INFO supervisord started with pid 88
+2025-03-17 15:52:33,692 INFO spawned: 'syslogd' with pid 89
+2025-03-17 15:52:33,694 INFO spawned: 'apached' with pid 90
+2025-03-17 15:52:33,697 INFO spawned: 'php-fpmd' with pid 91
+2025-03-17 15:52:33,700 INFO spawned: 'crond' with pid 92
+2025-03-17 15:52:33,703 INFO spawned: 'postfixd' with pid 94
+2025-03-17 15:52:33,706 INFO spawned: 'sshd' with pid 97
+2025-03-17 15:52:33,709 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:52:33,710 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:52:33,710 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:52:33,711 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:52:33,711 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 15:52:34,852 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:01:52,769 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:01:52,769 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:01:52,772 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:01:52,772 INFO supervisord started with pid 86
+2025-03-17 16:01:53,775 INFO spawned: 'syslogd' with pid 87
+2025-03-17 16:01:53,778 INFO spawned: 'apached' with pid 88
+2025-03-17 16:01:53,781 INFO spawned: 'php-fpmd' with pid 89
+2025-03-17 16:01:53,785 INFO spawned: 'crond' with pid 90
+2025-03-17 16:01:53,788 INFO spawned: 'postfixd' with pid 92
+2025-03-17 16:01:53,792 INFO spawned: 'sshd' with pid 95
+2025-03-17 16:01:53,794 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:01:53,794 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:01:53,794 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:01:53,794 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:01:53,794 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:01:54,931 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:18:04,551 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:18:04,551 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:18:04,556 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:18:04,557 INFO supervisord started with pid 87
+2025-03-17 16:18:05,559 INFO spawned: 'syslogd' with pid 88
+2025-03-17 16:18:05,561 INFO spawned: 'apached' with pid 89
+2025-03-17 16:18:05,564 INFO spawned: 'php-fpmd' with pid 90
+2025-03-17 16:18:05,566 INFO spawned: 'crond' with pid 91
+2025-03-17 16:18:05,568 INFO spawned: 'postfixd' with pid 92
+2025-03-17 16:18:05,571 INFO spawned: 'sshd' with pid 97
+2025-03-17 16:18:05,572 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:05,573 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:05,573 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:05,573 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:05,573 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:06,714 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:18:29,496 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:18:29,497 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:18:29,499 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:18:29,499 INFO supervisord started with pid 87
+2025-03-17 16:18:30,502 INFO spawned: 'syslogd' with pid 88
+2025-03-17 16:18:30,505 INFO spawned: 'apached' with pid 89
+2025-03-17 16:18:30,509 INFO spawned: 'php-fpmd' with pid 90
+2025-03-17 16:18:30,512 INFO spawned: 'crond' with pid 91
+2025-03-17 16:18:30,516 INFO spawned: 'postfixd' with pid 93
+2025-03-17 16:18:30,519 INFO spawned: 'sshd' with pid 96
+2025-03-17 16:18:30,522 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:30,523 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:30,523 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:30,523 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:30,523 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:18:31,642 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:20:36,866 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:20:36,866 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:20:36,869 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:20:36,869 INFO supervisord started with pid 88
+2025-03-17 16:20:37,871 INFO spawned: 'syslogd' with pid 89
+2025-03-17 16:20:37,873 INFO spawned: 'apached' with pid 90
+2025-03-17 16:20:37,874 INFO spawned: 'php-fpmd' with pid 91
+2025-03-17 16:20:37,876 INFO spawned: 'crond' with pid 92
+2025-03-17 16:20:37,878 INFO spawned: 'postfixd' with pid 95
+2025-03-17 16:20:37,879 INFO spawned: 'sshd' with pid 97
+2025-03-17 16:20:37,880 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:20:37,880 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:20:37,881 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:20:37,881 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:20:37,881 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:20:38,979 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:22:11,901 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:22:11,901 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:22:11,904 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:22:11,904 INFO supervisord started with pid 89
+2025-03-17 16:22:12,907 INFO spawned: 'syslogd' with pid 90
+2025-03-17 16:22:12,910 INFO spawned: 'apached' with pid 91
+2025-03-17 16:22:12,913 INFO spawned: 'php-fpmd' with pid 92
+2025-03-17 16:22:12,915 INFO spawned: 'crond' with pid 93
+2025-03-17 16:22:12,918 INFO spawned: 'postfixd' with pid 96
+2025-03-17 16:22:12,921 INFO spawned: 'sshd' with pid 98
+2025-03-17 16:22:12,922 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:22:12,923 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:22:12,923 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:22:12,923 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:22:12,923 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:22:14,066 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:23:31,911 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:23:31,912 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:23:31,914 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:23:31,914 INFO supervisord started with pid 88
+2025-03-17 16:23:32,917 INFO spawned: 'syslogd' with pid 89
+2025-03-17 16:23:32,919 INFO spawned: 'apached' with pid 90
+2025-03-17 16:23:32,921 INFO spawned: 'php-fpmd' with pid 91
+2025-03-17 16:23:32,923 INFO spawned: 'crond' with pid 92
+2025-03-17 16:23:32,927 INFO spawned: 'postfixd' with pid 94
+2025-03-17 16:23:32,930 INFO spawned: 'sshd' with pid 97
+2025-03-17 16:23:32,932 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:23:32,933 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:23:32,933 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:23:32,933 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:23:32,933 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:23:34,062 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:28:20,848 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:28:20,848 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:28:20,852 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:28:20,852 INFO supervisord started with pid 88
+2025-03-17 16:28:21,855 INFO spawned: 'syslogd' with pid 89
+2025-03-17 16:28:21,857 INFO spawned: 'apached' with pid 90
+2025-03-17 16:28:21,860 INFO spawned: 'php-fpmd' with pid 91
+2025-03-17 16:28:21,863 INFO spawned: 'crond' with pid 92
+2025-03-17 16:28:21,867 INFO spawned: 'postfixd' with pid 95
+2025-03-17 16:28:21,871 INFO spawned: 'sshd' with pid 97
+2025-03-17 16:28:21,875 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:28:21,875 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:28:21,876 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:28:21,876 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:28:21,877 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:28:23,027 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-17 16:29:13,230 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/apache.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/blackfire-agent.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/cron.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/dnsmasq.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/php-fpm.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/postfix.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/ssh.conf" during parsing
+2025-03-17 16:29:13,230 INFO Included extra file "/opt/docker/etc/supervisor.d/syslog.conf" during parsing
+2025-03-17 16:29:13,236 INFO RPC interface 'supervisor' initialized
+2025-03-17 16:29:13,236 INFO supervisord started with pid 90
+2025-03-17 16:29:14,238 INFO spawned: 'syslogd' with pid 91
+2025-03-17 16:29:14,239 INFO spawned: 'apached' with pid 92
+2025-03-17 16:29:14,241 INFO spawned: 'php-fpmd' with pid 93
+2025-03-17 16:29:14,243 INFO spawned: 'crond' with pid 94
+2025-03-17 16:29:14,244 INFO spawned: 'postfixd' with pid 98
+2025-03-17 16:29:14,246 INFO spawned: 'sshd' with pid 99
+2025-03-17 16:29:14,247 INFO success: apached entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:29:14,247 INFO success: php-fpmd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:29:14,247 INFO success: crond entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:29:14,248 INFO success: postfixd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:29:14,248 INFO success: sshd entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2025-03-17 16:29:15,338 INFO success: syslogd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

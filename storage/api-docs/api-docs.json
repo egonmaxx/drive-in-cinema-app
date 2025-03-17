@@ -1,0 +1,376 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Autósmozi API",
+        "description": "Filmek és vetítések API dokumentáció",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/films": {
+            "get": {
+                "tags": [
+                    "Films"
+                ],
+                "summary": "Összes film lekérdezése",
+                "operationId": "271e474415d2f29bf3c163247c5f4639",
+                "responses": {
+                    "200": {
+                        "description": "Sikeres válasz",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Film"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Films"
+                ],
+                "summary": "Új film létrehozása",
+                "operationId": "ce1501bac824524d1e4706075650bf11",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Film"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Film sikeresen létrehozva"
+                    }
+                }
+            }
+        },
+        "/api/films/{id}": {
+            "get": {
+                "tags": [
+                    "Films"
+                ],
+                "summary": "Egy adott film lekérdezése",
+                "operationId": "bb11826b5087b0708ec01458c9053803",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "A film egyedi azonosítója",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sikeres válasz",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Film"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "Films"
+                ],
+                "summary": "Egy adott film módosítása",
+                "operationId": "d2fbe78b6e79c3f1cfb5067d25f9a039",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "A film egyedi azonosítója",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Film"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Film sikeresen frissítve"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Films"
+                ],
+                "summary": "Egy adott film törlése",
+                "operationId": "decacbac55d9f088563f35def674b92a",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "A film egyedi azonosítója",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "Film sikeresen törölve"
+                    }
+                }
+            }
+        },
+        "/api/screenings": {
+            "get": {
+                "tags": [
+                    "Screenings"
+                ],
+                "summary": "Összes vetítés lekérdezése",
+                "operationId": "faef24dd15da03cffded37e53ffcdb15",
+                "responses": {
+                    "200": {
+                        "description": "Sikeres válasz",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Screening"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Screenings"
+                ],
+                "summary": "Új vetítés létrehozása",
+                "operationId": "3274ab36da28448156886ca4a20e94cd",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Screening"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Vetítés sikeresen létrehozva"
+                    }
+                }
+            }
+        },
+        "/api/screenings/{id}": {
+            "get": {
+                "tags": [
+                    "Screenings"
+                ],
+                "summary": "Egy adott vetítés lekérdezése",
+                "operationId": "d756b8b7ad17a80dbb9bf82855be6294",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "A vetítés egyedi azonosítója",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sikeres válasz",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Screening"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "Screenings"
+                ],
+                "summary": "Egy adott vetítés módosítása",
+                "operationId": "511669ae5af5bd2b378231b43f5f1898",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "A vetítés egyedi azonosítója",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Screening"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Vetítés sikeresen frissítve"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Screenings"
+                ],
+                "summary": "Egy adott vetítés törlése",
+                "operationId": "6b294d09665682b69d4f91ce05657cce",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "A vetítés egyedi azonosítója",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "Vetítés sikeresen törölve"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Film": {
+                "title": "Film",
+                "description": "Film adatmodell",
+                "required": [
+                    "title",
+                    "description",
+                    "rating",
+                    "language",
+                    "cover_image"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "title": {
+                        "type": "string",
+                        "example": "Jurassic Park"
+                    },
+                    "description": {
+                        "type": "string",
+                        "example": "Egy dinoszaurusz park története."
+                    },
+                    "rating": {
+                        "type": "string",
+                        "example": "PG-13"
+                    },
+                    "language": {
+                        "type": "string",
+                        "example": "English"
+                    },
+                    "cover_image": {
+                        "type": "string",
+                        "format": "url",
+                        "example": "https://example.com/jurassic-park.jpg"
+                    },
+                    "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "updated_at": {
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                },
+                "type": "object"
+            },
+            "Screening": {
+                "title": "Screening",
+                "description": "Vetítés adatmodell",
+                "required": [
+                    "showtime",
+                    "available_seats",
+                    "film_id"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "showtime": {
+                        "type": "string",
+                        "format": "date-time",
+                        "example": "2025-06-15T20:00:00Z"
+                    },
+                    "available_seats": {
+                        "type": "integer",
+                        "example": 50
+                    },
+                    "film_id": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "updated_at": {
+                        "type": "string",
+                        "format": "date-time"
+                    }
+                },
+                "type": "object"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Films",
+            "description": "Filmek kezelése"
+        },
+        {
+            "name": "Screenings",
+            "description": "Vetítések kezelése"
+        }
+    ]
+}
